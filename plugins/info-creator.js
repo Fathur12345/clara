@@ -4,8 +4,8 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let name = await conn.getName(who)
 
   const sentMsg = await conn.sendContactArray(m.chat, [
-    [`${nomorown}`, `${await conn.getName(nomorown+'@s.whatsapp.net')}`, `Developer Bot `, `My Skill Just Copas`, `elistz21@gmail.com`, `Indonesia`, `https://github.com/Zeltoria`, `Owner Clara - MD`],
-    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `Whatsapp Bot`, `Jangan Di Spam`, `Nothing`, `Indonesia`, `https://github.com/Zeltoria/Clara-MD`, `Hanya Bot Pasaran Yang Sering Error`]
+    [`${nomorown}`, `${await conn.getName(nomorown+'@s.whatsapp.net')}`, `Developer Bot `, `My Skill Just Copas`, `elistz21@gmail.com`, `Indonesia`, `https://github.com/fthrx`, `Owner Clara - MD`],
+    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `Whatsapp Bot`, `Jangan Di Spam`, `Nothing`, `Indonesia`, `https://www.xnxx.com`, `Hanya Bot Pasaran Yang Sering Error`]
   ], fkontak)
   await m.reply(`Hai Kak @${m.sender.split(`@`)[0]} Itu Nomor Ownerku, Jangan Macam Macam Ya ~`)
   } 
